@@ -16,6 +16,5 @@ sentence2 = st.text_input("Sentence 2")
 if st.button("Compare"):
     payload = {"inputs": {"source_sentence": sentence1, "sentences": [sentence2]}}
     output = query(payload)
-    # var = lambda x: 0 if x<=0 else x
-    # st.write(var(output[0]))
-    st.write(round(output[0],2))
+    var = lambda x: 0 if x<=0 else x
+    st.write(round(var(output[0]),2))
