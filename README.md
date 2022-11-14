@@ -5,6 +5,7 @@ Part _A:
 *	Sentence embeddings in NLP is used to map the sentences to vectors of real numbers 
 *	Then creating a new column to store the sentence similarity values computed using cosine similarity from pairwise library of sklearn module
 *	Rounding off the cosine similarity values from [-1, 1] to [0, 1], where 0 means sentences are highly dissimilar and 1 means sentences are highly similar.
+
 Part_B:
 *	Deploying the Part_A algorithm in Heroku(by salesforce) cloud server.
 *	I have used streamlit module to build the app which takes two sentences as input and respond the similarity score between the two sentences
